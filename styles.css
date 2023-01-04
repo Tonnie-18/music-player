@@ -40,6 +40,20 @@ h2{
                  0 0 0 6px #34393F;
 }
 
+#backBtn:hover{
+    box-shadow: 0 0 0 3px #34393F,
+                 0 0 0 6px #232428;
+    color: rgb(195, 198, 202); 
+    cursor: pointer;              
+}
+
+#hambugerMenu:hover{
+    box-shadow: 0 0 0 3px #34393F,
+                 0 0 0 6px #232428;
+    color: rgb(195, 198, 202);   
+    cursor: pointer;           
+}
+
 #image{
     display: flex;
     justify-content: center;
@@ -92,7 +106,8 @@ h1{
     box-shadow: 0 0 0 3px #34393F,
                 0 0 0 6px #0f1011;
     border-radius: 10px;  
-    height: 3px;              
+    height: 3px;    
+    cursor: pointer;          
 }
 
 .progress{
@@ -137,8 +152,29 @@ h1{
     align-items: center;
 }
 
+#previous:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 3px #34393F,
+                0 0 0 6px #232428;
+}
+
+#next:hover{
+    box-shadow: 0 0 0 3px #34393F,
+                0 0 0 6px #232428;
+    cursor: pointer;
+}
+
 #play{
     background: #6f0a0a;
     background: -webkit-linear-gradient(133deg, #6f0a0a 0%, #f45309 100%);
     background: linear-gradient(133deg, #6f0a0a 0%, #f45309 100%);
+}
+
+#play:hover{
+    background: #6f0a0a;
+    background: -webkit-linear-gradient(133deg, #f45309  0%,#6f0a0a 100%);
+    background: linear-gradient(133deg, #f45309 0%, #6f0a0a 100%);
+    box-shadow: 0 0 0 3px #34393F,
+                0 0 0 6px #232428;
+    cursor: pointer;
 }
